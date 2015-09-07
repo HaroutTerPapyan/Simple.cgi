@@ -2,6 +2,8 @@
 
 SUMMARY
 
+HTML Page (simple.html) with a button and input fields for first and last name. After entering values into the fields and clicking "submit", the (python)cgi script (simple.cgi) will take the input, create another simple html page that includes a greeting with the name entered in simple.html, the directory path to the cgi script, and a youtube video.
+
 Initial Commit 9/6 to open Repo
 
 Commit 9/6 with instructer example and simple html page
