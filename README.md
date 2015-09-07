@@ -14,19 +14,19 @@ INSTRUCTIONS
 simple.cgi should be placed in /cgi-bin/
 
 simple.html should be modified to point to /~steve/ instead of /~ht250268/
-<p>
-+			<form method="get" action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
-+				<!--input type="checkbox" name="alabama" value="Alabama"-->Sweet Home Alabama<br>
-+				<!--input type="submit" value="Submit"-->
-+			</form>
-+		</p>
+
+<form method="get" action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
+<!--input type="checkbox" name="alabama" value="Alabama"-->Sweet Home Alabama<br>
+<!--input type="submit" value="Submit"-->
+</form>	
+
 and 
-+		<p>
-+			<form action = "http://www.csun.edu/~ht250268/cgi-bin/simple.cgi" method = "get">
-+			<p>
-+				<label>First Name: <input type="text" name="first_name"><br/></label>
-+				<label>Last Name: <input type="text" name="last_name"><br/></label>
-+			</p>
+
+<form action = "http://www.csun.edu/~ht250268/cgi-bin/simple.cgi" method = "get">
+<p>
+<label>First Name: <input type="text" name="first_name"><br/></label>
+<label>Last Name: <input type="text" name="last_name"><br/></label>
+</p>
 
 OR
 
