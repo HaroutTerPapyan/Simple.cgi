@@ -23,21 +23,10 @@ simple.cgi should be placed in /cgi-bin/
 
 simple.html should be modified to point to /~steve/ instead of /~ht250268/
 
-<code> 
-form method="get" action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
-</code>
+The submit button First/Last name fields
 
-and 
+<code>form action = "http://www.csun.edu/~ht250268/cgi-bin/simple.cgi" method = "get"</code>
 
-<code>
-form action = "http://www.csun.edu/~ht250268/cgi-bin/simple.cgi" method = "get"
-
-
-First Name: input type="text" name="first_name"
-
-Last Name: input type="text" name="last_name"
-
-</code>
 
 OR
 
