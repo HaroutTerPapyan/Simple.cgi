@@ -2,6 +2,7 @@
 
 <!-- 	Harout Ter-Papyan
 		Comp 490 
+		Primer Project
 -->
 
 
@@ -46,31 +47,29 @@ fi
 		</body>
 	</center>
 
-	<!-- CGI Through Link -->
-	
 	<body>
-		<a href="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">Run CGI</a>
-	</body>
-
-
-	<!-- CGI Inside Frame -->
-<!--
-	<body>
-		<iframe src="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi" width = "100%"></iframe>
-	</body>
--->
-
-	<body>
-		<form action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
-			<input type="checkbox" name="state" value="Alabama">Alabama<br>
-			<input type="submit" value="Submit">
+		<p>
+			Pressing the submit button will generate an HTML page with the music video listed below, your entered name, and the file path to the cgi script used to generate the page. 
+		</p>
+		<p>
+			<form method="get" action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
+				<!--input type="checkbox" name="alabama" value="Alabama"-->Sweet Home Alabama<br>
+				<!--input type="submit" value="Submit"-->
+			</form>
+		</p>
+		<p>
+			<form action = "http://www.csun.edu/~ht250268/cgi-bin/simple.cgi" method = "get">
+			<p>
+				<label>First Name: <input type="text" name="first_name"><br/></label>
+				<label>Last Name: <input type="text" name="last_name"><br/></label>
+			</p>
+			<p>
+				<!-- submit button -->
+				<input type = "submit" value = "Submit">
+				<!-- clear button -->
+				<input type = "reset" value = "Clear">
+			</p>
 		</form>
+		</p>
 	</body>
-<!--
-	<body>
-
-		<iframe width="420" height="315" src="https://www.youtube.com/embed/ye5BuYf8q4o" frameborder="0" allowfullscreen></iframe>
-
-	</body>
--->
 </html>
