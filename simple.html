@@ -1,4 +1,4 @@
-<!DOCKTYPE HTML>
+<!DOCTYPE HTML>
 
 <!-- 	Harout Ter-Papyan
 		Comp 490 
@@ -47,45 +47,30 @@ fi
 	</center>
 
 	<!-- CGI Through Link -->
+	
 	<body>
 		<a href="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">Run CGI</a>
 	</body>
 
+
 	<!-- CGI Inside Frame -->
+<!--
 	<body>
 		<iframe src="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi" width = "100%"></iframe>
 	</body>
-
-	<form method = "get" action = "http://www.wunderground.com/cgi-bin/findweather/getForecast">
-			<p><label>Search:
-				<input type="text" name="query" >
-			</label></p>
-			<p>
-				<!-- submit button -->
-				<input type = "submit" value = "Submit">
-				<!-- clear button -->
-				<input type = "reset" value = "Clear">
-			</p>
-		</form>
+-->
 
 	<body>
-		<b>Web Form</b>
-		<form method = "get" action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
-		<input type="text" name ="simple" size ="25">
-		<input type="submit" name ="submit" value="submit">
+		<form action="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?simple.cgi">
+			<input type="checkbox" name="state" value="Alabama">Alabama<br>
+			<input type="submit" value="Submit">
 		</form>
 	</body>
-
+<!--
 	<body>
-		<iframe src="C:\Users\Harout\CS\Comp 490\Simple.cgi\simple.cgi" width = "100%"></iframe>
-	</body>
 
-	<body>
-		<a href="http://www.csun.edu/~ht250268/cgi-bin/simple.cgi?state=Alabama&capital=Montgomery">Alabama</a><br>
-	</body>
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/ye5BuYf8q4o" frameborder="0" allowfullscreen></iframe>
 
-	<body>
-		<a href="C:\Users\Harout\CS\Comp 490\Simple.cgi\simple.cgi?state=Alabama&capital=Montgomery">Alabama</a><br>
 	</body>
-
+-->
 </html>
