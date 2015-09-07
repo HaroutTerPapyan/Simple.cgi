@@ -1,6 +1,4 @@
-
-$ cat simple.cgi
-#! /bin/bash
+#!/usr/bin/bash
 
 # This is a little CGI program
 ###################################################################
@@ -21,10 +19,15 @@ $ cat simple.cgi
 # SERVER_PORT:       The port of the server.
 
 # Add a content type and a blank line
-echo "X-COMP-490: ${USER}"
-echo "Content-type: text/plain"
-echo ""
+#echo "X-COMP-490: ${USER}"
+#echo "Content-type: text/plain"
+#echo ""
 
-if [ -n "${QUERY_STRING}" ] ; then
-   cat  ./${QUERY_STRING}
-fi
+#if [ -n "${QUERY_STRING}" ] ; then
+#   cat  ./${QUERY_STRING}
+#fi
+
+
+print "Content-type: text/html\n\n";
+use CGI qw(:standard);
+print "The capital of ", param('state'), " is ", param('capital'), ".";
