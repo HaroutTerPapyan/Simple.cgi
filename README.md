@@ -45,5 +45,22 @@ Click "Submit"
 
 The simple.cgi script will generate a new html page with the path to the simple.cgi file, your name, and a youtube video that will auto play. There is a link that says "Email Me", clicking this will open your default email application with my email address populated. A google search form exists too, and you can search google by typing something in the field and clicking "submit". 
 
+HTML Return
+<code>
+
+$ curl -I http://www.csun.edu/~ht250268/cgi-bin/simple.cgi
+
+HTTP/1.1 200 OK
+
+Date: Tue, 08 Sep 2015 00:34:27 GMT
+
+Server: Apache/2.2.3 (Red Hat)
+
+Content-Type: text/html
+
+Set-Cookie: BIGipServerSF_WEB_PRODUCTION_HTTP=49194626.20480.0000; path=/
+
+</code>
+
 
 Resource used to use get method to pass first and last name to cgi script: http://www.tutorialspoint.com/python/python_cgi_programming.htm
