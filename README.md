@@ -19,11 +19,15 @@ Commit 9/7 - added name fields to html page, which are passed to the cgi script 
 
 Commit 9/7 - added simpleSteve.html that points to http://www.csun.edu/~steve/cgi-bin/simple.cgi?simple.cgi
 
+Commit 9/7 - added email link, google search form, and centered some things in the cgi script generated html page. 
+
+9/7 - cleaned up my code
+
 INSTRUCTIONS
 
 simple.cgi should be placed in /cgi-bin/
 
-simple.html should be modified to point to /~steve/ instead of /~ht250268/
+simple.html should be modified to point to /~steve/ (or server directory of choice) instead of /~ht250268/
 
 The submit button First/Last name fields
 
@@ -39,7 +43,7 @@ Open the simple.html (or simpleSteve.html).
 Enter your first and last name
 Click "Submit"
 
-The simple.cgi script will generate a new html page with the path to the simple.cgi file, your name, and a youtube video that will auto play. 
+The simple.cgi script will generate a new html page with the path to the simple.cgi file, your name, and a youtube video that will auto play. There is a link that says "Email Me", clicking this will open your default email application with my email address populated. A google search form exists too, and you can search google by typing something in the field and clicking "submit". 
 
 
 Resource used to use get method to pass first and last name to cgi script: http://www.tutorialspoint.com/python/python_cgi_programming.htm
